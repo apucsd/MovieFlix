@@ -1,0 +1,20 @@
+.shows-card {
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.shows-card:hover {
+  transform: scale(1.05);
+}
+
+.shows-card:hover .d-none {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
