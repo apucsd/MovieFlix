@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar mt-3 navbar-expand-lg py-3 bg-blur">
       <div className="container-fluid">
         <Link className=" glow-text" to="/">
-          MovieFlix
+          MovieFliix
         </Link>
         <button
           className="navbar-toggler"
